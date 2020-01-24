@@ -1,0 +1,6 @@
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.config
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.pdb
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csprojAssemblyReference.cache
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe
+C:\Users\prisc\Documents\GitHub\alura-c#\1- LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.pdb
