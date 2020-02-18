@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp", "LearningC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveis", "CriandoVariaveis\CriandoVariaveis.csproj", "{E327AB0A-E7DE-453F-8191-7DE79F0A2B24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais", "Condicionais\Condicionais.csproj", "{21BAFC09-FDE0-4DFC-89AB-9F63EE19FDEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E327AB0A-E7DE-453F-8191-7DE79F0A2B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E327AB0A-E7DE-453F-8191-7DE79F0A2B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E327AB0A-E7DE-453F-8191-7DE79F0A2B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BAFC09-FDE0-4DFC-89AB-9F63EE19FDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BAFC09-FDE0-4DFC-89AB-9F63EE19FDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BAFC09-FDE0-4DFC-89AB-9F63EE19FDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BAFC09-FDE0-4DFC-89AB-9F63EE19FDEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
