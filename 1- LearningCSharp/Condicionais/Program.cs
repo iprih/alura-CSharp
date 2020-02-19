@@ -21,6 +21,11 @@ namespace Condicionais
             {
                 Console.WriteLine("Nao pode entrar");
             }
+
+            int idade2 = 68;
+            bool ehIdoso = idade2 >= 65;
+            Console.WriteLine(ehIdoso);
+
             Console.ReadLine();
         }
     }
