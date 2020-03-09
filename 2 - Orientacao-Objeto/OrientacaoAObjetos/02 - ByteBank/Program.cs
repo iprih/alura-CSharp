@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ByteBank;
+using System;
 
-namespace ByteBank
+namespace _02___ByteBank
 {
     public class Program
     {
@@ -12,9 +9,11 @@ namespace ByteBank
         {
             ContaCorrente conta = new ContaCorrente();
 
-            conta.titular = "Pri";
+            conta.titular = "Rogerio";
 
             Console.WriteLine(conta.titular);
+            Console.WriteLine(conta.agencia);
+            Console.WriteLine(conta.saldo);
 
             Console.ReadLine();
         }
