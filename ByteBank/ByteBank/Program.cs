@@ -25,12 +25,16 @@ namespace ByteBank
             GerenteDeConta iris = new GerenteDeConta("123456789");
             iris.Nome = "Iris";
 
+            Desenvolvedor rogerio = new Desenvolvedor("123456789");
+            rogerio.Nome = "Rogerio";
+
             gerenciadorBonificacao.Registrar(pedro);
             gerenciadorBonificacao.Registrar(roberta);
             gerenciadorBonificacao.Registrar(igor);
             gerenciadorBonificacao.Registrar(iris);
+            gerenciadorBonificacao.Registrar(rogerio);
 
-            Console.WriteLine("Total de bonificacao" + gerenciadorBonificacao.GetTotalBonificacao());
+            Console.WriteLine("Total de bonificacao R$" + gerenciadorBonificacao.GetTotalBonificacao());
         }
     }
 }

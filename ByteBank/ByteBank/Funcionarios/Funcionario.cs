@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ByteBank.Funcionarios
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
         public static int TotalDeFuncionarios { get; private set; }
         public string Nome { get; set; }
@@ -19,18 +19,9 @@ namespace ByteBank.Funcionarios
             TotalDeFuncionarios++;
         }
 
-        public virtual void AumentarSalario()
-        {
-            //Salario = Salario + (Salario * 0.1);
-            Salario *= 1.1;
-        }
+        public abstract void AumentarSalario();
+        public abstract double GetBonificacao();
 
- 
-        public virtual double GetBonificacao()
-        {
-             return Salario * 0.10;        
-
-        }
 
     }
 }
