@@ -23,11 +23,16 @@ namespace _05___ByteBank
             conta.agencia = 456;
             conta.numero = 12345;
 
+            if(conta.titular == null)
+            {
+                Console.WriteLine("Ops, a referencia em conta.titular é NULL");
+            }
+
            //Console.WriteLine(priscila.nome);
 
             
            
-            Console.WriteLine(conta.titular.nome + ", " + conta.titular.profissao);
+            Console.WriteLine(conta.titular.nome );
             Console.WriteLine();
 
             Console.ReadLine();

@@ -1,12 +1,37 @@
 ﻿
 
-namespace _06___ByteBank
+namespace _07___ByteBank
 {
     public class ContaCorrente
     {
         public Cliente Titular { get; set; }
 
-        public int Agencia { get; set; }
+        public static int QtdContasCriadas { get; private set; } // pertence a classe 
+
+        //public static int GetQtdCriadas()
+        //{
+        //    return QtdContasCriadas;
+        //}
+
+
+
+        private int _agencia;
+        public int Agencia
+        {
+            get
+            {
+                return _agencia;
+            }
+            set
+            {
+                if(value <= 0)
+                {
+                    return;
+                }
+                _agencia = value;
+            }
+        }
+
         public int Numero { get; set; }
         private double _saldo = 500; // campo privado que pode ser usado em uma propriedade ou nao
 
@@ -44,8 +69,13 @@ namespace _06___ByteBank
         }
 
 
+        public ContaCorrente(int agencia, int numero) //forma de construir regras
+        {
+            Agencia = agencia;
+            Numero = numero;
 
-
+            ContaCorrente.QtdContasCriadas++;
+        }
 
         public bool Sacar(double valor)
         {

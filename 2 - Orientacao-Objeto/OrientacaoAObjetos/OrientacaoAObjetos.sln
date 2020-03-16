@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - ByteBank", "ByteBank\01 - ByteBank.csproj", "{FE7D1AB9-BB38-4E9C-B0E5-F7553F5282E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - ByteBank", "02 - ByteBank\02 - ByteBank.csproj", "{2960396C-C17C-4F53-9ACE-B33D4DC3378C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 - ByteBank", "02 - ByteBank\02 - ByteBank.csproj", "{2960396C-C17C-4F53-9ACE-B33D4DC3378C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - ByteBank", "03 - ByteBank\03 - ByteBank.csproj", "{7C2746E3-FE99-4E9E-AA6B-35CF96032723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 - ByteBank", "03 - ByteBank\03 - ByteBank.csproj", "{7C2746E3-FE99-4E9E-AA6B-35CF96032723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - ByteBank", "04 - ByteBank\04 - ByteBank.csproj", "{52FF338D-8479-4F86-AB7C-3625BBE0A9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 - ByteBank", "04 - ByteBank\04 - ByteBank.csproj", "{52FF338D-8479-4F86-AB7C-3625BBE0A9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - ByteBank", "05 - ByteBank\05 - ByteBank.csproj", "{31D7EF2E-E617-4D65-AEB7-21E4B9027D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 - ByteBank", "05 - ByteBank\05 - ByteBank.csproj", "{31D7EF2E-E617-4D65-AEB7-21E4B9027D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - ByteBank", "06 - ByteBank\06 - ByteBank.csproj", "{6552916E-B5D7-4731-8069-B3C09129CC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 - ByteBank", "06 - ByteBank\06 - ByteBank.csproj", "{6552916E-B5D7-4731-8069-B3C09129CC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - ByteBank", "07 - ByteBank\07 - ByteBank.csproj", "{DD3FF645-D555-4193-ACB4-2EC9EE42CA09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6552916E-B5D7-4731-8069-B3C09129CC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6552916E-B5D7-4731-8069-B3C09129CC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6552916E-B5D7-4731-8069-B3C09129CC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3FF645-D555-4193-ACB4-2EC9EE42CA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3FF645-D555-4193-ACB4-2EC9EE42CA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3FF645-D555-4193-ACB4-2EC9EE42CA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3FF645-D555-4193-ACB4-2EC9EE42CA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
