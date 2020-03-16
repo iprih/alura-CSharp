@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ByteBank.Sistemas
 {
-    public interface Autenticavel //contrato
+    public interface IAutenticavel //contrato
     {
         bool Autenticar(string senha);
 
